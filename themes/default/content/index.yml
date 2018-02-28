@@ -1,0 +1,55 @@
+# Your information to render pages
+## All key-value pairs can be used in html template of some theme specified in `config.yml`
+## See https://github.com/Maples7/barn to catch more
+
+pageTitle: 陆佳南的简历 | lujianan.com
+head_pic: image/head.png
+icon: image/favicon.ico
+name: 陆佳南
+title: Web 后端开发工程师
+
+profile: 
+  - 我是一名热爱编程的 Web 后端开发者，目前专注于 Node.js 技术栈，熟悉一些前端开发，也使用过 C# 和 PHP，最近开始对 Golang 感兴趣。
+  - 平时我喜欢钻研和学习新技术，经常会看一些技术相关的书籍和博客，自己也有撰写技术博客的习惯。
+  - 目前希望寻求一份满意的 Web 后端开发的工作。
+
+education:
+  学历: 本科
+  时间: 2012.9-2016.6
+  学校: 南京工程学院
+  专业: 电子信息科学与技术
+
+contact:
+  邮箱: ljn6176@163.com
+  手机: 13255268323
+  微信: LOL-antijungle
+  居住地: 中国 广州
+
+others:
+  Github: github.com/royeo
+  个人博客: lujianan.com
+  在线简历: cv.lujianan.com
+
+work_exprience: 
+- 
+  company_name: 多益网络
+  job_position: Web 研发工程师
+  from: 2016.7
+  to: 至今
+  content: 主要负责使用 Node.js 技术栈进行 Web 后端开发，涉及 Express 框架、MySQL 数据库、Redis 缓存等。也曾简单使用 Vue.js 构建前端用户界面。在部分项目中还使用过 .NET Core 与 PHP 进行项目的构建和日常维护工作，对后端技术比较了解。
+
+project_exprience:
+  游戏论坛: 主要负责使用 Node.js 技术栈进行 Web 后端开发，涉及 Express／Koa 框架、MySQL 关系型数据库、MongoDB 非关系型数据库、Redis 缓存数据库等。也曾简单XXXXXXXXXXXXXXX使用 Vue.js 构建前端用户界面。在部分项目中还使用过 PHP 与 .NET Core 进行项目的构建和日常维护工作，对后端技术比较了解。
+  CMS商城: 主要负责使用 Node.js 技术栈进行 Web 后端开发，涉及 Express／Koa 框架、MySQL 关系型数据库、MongoDB 非关系型数据库、Redis 缓存数据库等。也曾简单使用 Vue.js 构建前端XXXXXXXXXXXXXXXXXX用户界面。在部分项目中还使用过 PHP 与 .NET Core 进行项目的构建和日常维护工作，对后端技术比较了解。
+
+# `link` in each key is optional
+personal_work:
+  便利店在哪（微信小程序）: 
+    link: https://github.com/royeo/weapp-store
+    content: 一个帮你快速找到附近便利店的小程序。基于小程序原生地图以及百度地图 POI 检索 API 实现。
+
+skill: 
+  Node.js / JavaScript: 80%
+  Golang / PHP / Python: 60%
+  MySQL / Redis / Nginx: 70%
+  Vue / HTML / CSS: 50%
