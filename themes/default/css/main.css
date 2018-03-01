@@ -168,7 +168,7 @@ body {
 
 .right-section .module .subtitle .position {
   font-size: 13px;
-  font-weight: 400; 
+  /*font-weight: 400; */
   float: right;
   margin-right: 10px;
 }
@@ -199,6 +199,7 @@ body {
   width: 430px;
   margin-left: auto;
   margin-right: auto; 
+  margin-bottom: 35px;
 }
 
 .skill-list .skill {

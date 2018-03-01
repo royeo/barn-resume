@@ -3,7 +3,7 @@
 ## See https://github.com/Maples7/barn to catch more
 
 pageTitle: 陆佳南的简历 | lujianan.com
-head_pic: image/head.png
+head_pic: image/head.jpg
 icon: image/favicon.ico
 name: 陆佳南
 title: Web 后端开发工程师
@@ -34,22 +34,22 @@ work_exprience:
 - 
   company_name: 多益网络
   job_position: Web 后端工程师
-  from: 2016.7
+  from: 2016.4
   to: 至今
-  content: 主要负责使用 Node.js 技术栈进行 Web 后端开发，涉及 Express 框架、MySQL 数据库、Redis 缓存等。使用过 Vue.js 构建前端用户界面。在部分项目中还使用过 .NET Core 与 PHP 进行项目的构建和日常维护工作。
+  content: 主要使用 Node.js 技术栈进行 Web 后端开发，涉及 Express 框架、MySQL 数据库、Redis 缓存、Nginx 代理等。使用过 Vue.js 构建后台用户界面，也负责过电商网站的一些前端开发工作，在部分项目中还使用过 .NET Core 与 PHP 进行项目的构建和日常维护工作。
 
 project_exprience:
   游戏论坛: 
     position: 职能：项目主程
     design: Express + MySQL + Redis
-    content: 负责论坛 RESTful API 服务开发与维护，包括帖子、话题、用户等模块。工作内容包括：优化 MySQL 的查询以及索引，并搭建了主主复制；优化 Redis 缓存设计与性能，减少了30%的内存占用；引入 AVA 测试框架，结合 Gitlab CI 提高系统的可靠性，代码覆盖率从0到当前的80%。
+    content: 负责论坛 RESTful API 服务和渲染层服务的日常开发与维护、性能优化、部署与发布等。工作内容包括：优化系统代码架构以及代码之间的解耦；优化 MySQL 的查询和索引设计，搭建主从配合读写分离来提升读性能，提高了系统40%的吞吐量；优化 Redis 缓存的设计与性能，减少了30%的内存占用；引入 AVA 测试框架，结合 Gitlab CI 进行自动化测试，代码覆盖率从0到当前的80%多。
   # 357游戏网:
   #   design: Express + MySQL + Redis
   #   content: 项目前端主要采用 Vue + webpack + bootstrap 的架构。
   点卡商城:
     position: 职能：后端开发
-    design: .NET + SqlServer + Redis
-    content: 负责使用 .NET 开发的点卡商城“外币付”，以及使用 Magento（PHP） 搭建的跨境电商两个CMS系统的开发与维护。
+    design: .NET + SQLServer + Redis
+    content: 负责后端的日常维护以及兼顾一些前端工作，后面独立接手整个项目，包括商城与后台管理系统，后台管理系统使用 Vue + webpack + bootstrap 的架构。后期使用 Magento 开源电商系统对整个项目进行重构，基于 LNMP 构建，从零搭建到发布。
 
 # `link` in each key is optional
 personal_work:
