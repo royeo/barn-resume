@@ -46,27 +46,38 @@ html(lang='zh')
         div(class='module')
           h1(class='title') 求职意向
           h3(class='content' style="margin-top: 6px") #{title}
+
         div(class='module')
-          h1(class='title mt25') 工作经历
+          h1(class='title') 技能评估
+        div(class='skill-list')
+          each val, index in skill
+            div(class='skill')
+              div(class='skill-name')= index
+              div(class='skill-bar') 
+                span(class='value' style= 'width: ' + val)
+          
+        div(class='module')
+          h1(class='title') 工作经历
           each item in work_exprience
             div(class='subtitle' style="margin-top: 6px")
               span(class='company')= item.company_name
-              span(class='job-position' style="margin-left: 40px; font-size: 14px")= item.job_position
+              span(class='job-position')= item.job_position
               span(class='time')= item.from + ' - ' + item.to
             div(class='content' style="line-height: 180%")= item.content
 
 
         div(class='module')
-          h1(class='title mt25') 项目经历
+          h1(class='title') 项目经历
             div(class='content mt20' style="line-height: 180%")
               each val, index in project_exprience
-                ul(class='list')
-                  li(style="padding-bottom: 2px;")
-                    span(style='font-weight: 900')= index + '：'
-                    span= val
+                  div(class='subtitle')
+                    span(class='project')= index
+                    span(class='design')= '（' + val.design + '）'
+                    span(class="position")= val.position
+                  div(class='content' style="line-height: 180%; margin-bottom:10px")= val.content
 
         div(class='module')
-          h1(class='title mt25') 个人作品
+          h1(class='title') 个人作品
             div(class='content mt20' style="line-height: 180%")
                 each val, index in personal_work
                   if val.link
@@ -75,13 +86,6 @@ html(lang='zh')
                     span(style='font-weight: 900')= index
                   span= ': ' + val.content
 
-        div(class='module')
-          h1(class='title mt25') 技能评估
-        div(class='skill-list')
-          each val, index in skill
-            div(class='skill')
-              div(class='skill-name')= index
-              div(class='skill-bar') 
-                span(class='value' style= 'width: ' + val)
+
   footer
     div(style="font-size: 12px; text-align: center") Hosted by <a target="_blank" href="https://coding.net/pages/">Coding Pages</a>

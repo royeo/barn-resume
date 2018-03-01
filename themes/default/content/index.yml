@@ -9,8 +9,8 @@ name: 陆佳南
 title: Web 后端开发工程师
 
 profile: 
-  - 我是一名热爱编程的 Web 后端开发者，目前专注于 Node.js 技术栈，并且熟悉一些前端开发，也使用过 C# 和 PHP，最近开始对 Golang 感兴趣。
-  - 平时我喜欢钻研和学习新技术，经常会看一些技术相关的书籍和博客，自己也有撰写技术博客的习惯。
+  - 我是一名热爱技术的 Web 后端开发者，目前专注于 Node.js 技术栈，会写点前端，也使用过 C# 和 PHP，最近开始对 Golang 和区块链感兴趣。
+  - 平时我经常会看一些技术相关的书籍和博客，自己也有撰写技术博客的习惯，始终保持“求知若饥，虚心若愚”的状态。
   - 目前希望寻求一份满意的 Web 后端开发的工作。
 
 education:
@@ -33,14 +33,23 @@ others:
 work_exprience: 
 - 
   company_name: 多益网络
-  job_position: Web 研发工程师
+  job_position: Web 后端工程师
   from: 2016.7
   to: 至今
-  content: 主要负责使用 Node.js 技术栈进行 Web 后端开发，涉及 Express 框架、MySQL 数据库、Redis 缓存等。也曾简单使用 Vue.js 构建前端用户界面。在部分项目中还使用过 .NET Core 与 PHP 进行项目的构建和日常维护工作。
+  content: 主要负责使用 Node.js 技术栈进行 Web 后端开发，涉及 Express 框架、MySQL 数据库、Redis 缓存等。使用过 Vue.js 构建前端用户界面。在部分项目中还使用过 .NET Core 与 PHP 进行项目的构建和日常维护工作。
 
 project_exprience:
-  游戏论坛: 负责 RESTful API 服务以及渲染层服务的开发与维护。工作内容包括：优化 MySQL 的 SQL 以及索引，并搭建了主主复制；优化 Redis 缓存设计，减少了30%的内存占用，并推行使用 Lua 脚本来提高性能；引入 AVA 测试框架，结合 Gitlab CI 提高系统的可靠性，代码覆盖率从0到当前的80%。
-  CMS商城: 负责 magento 商城的开发、部署以及维护。该项目完全从零开始。
+  游戏论坛: 
+    position: 职能：项目主程
+    design: Express + MySQL + Redis
+    content: 负责论坛 RESTful API 服务开发与维护，包括帖子、话题、用户等模块。工作内容包括：优化 MySQL 的查询以及索引，并搭建了主主复制；优化 Redis 缓存设计与性能，减少了30%的内存占用；引入 AVA 测试框架，结合 Gitlab CI 提高系统的可靠性，代码覆盖率从0到当前的80%。
+  # 357游戏网:
+  #   design: Express + MySQL + Redis
+  #   content: 项目前端主要采用 Vue + webpack + bootstrap 的架构。
+  点卡商城:
+    position: 职能：后端开发
+    design: .NET + SqlServer + Redis
+    content: 负责使用 .NET 开发的点卡商城“外币付”，以及使用 Magento（PHP） 搭建的跨境电商两个CMS系统的开发与维护。
 
 # `link` in each key is optional
 personal_work:
@@ -48,7 +57,7 @@ personal_work:
     content: 一个帮你快速找到附近便利店的小程序。基于小程序原生地图以及百度地图 POI 检索 API 实现。
 
 skill: 
-  Node.js / JavaScript: 80%
-  C / C# / PHP: 50%
+  Node.js / JavaScript: 90%
+  C / C# / PHP: 60%
   MySQL / Redis / Nginx: 70%
   Vue / HTML / CSS: 50%

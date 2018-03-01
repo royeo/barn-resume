@@ -139,16 +139,38 @@ body {
 }
 
 .right-section .module .subtitle .company {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 900; 
   float: left;
   padding-bottom: 10px; 
 }
 
-.right-section .module .subtitle .company .job-position {
+.right-section .module .subtitle .job-position {
   font-size: 14px;
   font-weight: 400; 
-  float: left
+  float: left;
+  margin-left: 40px; 
+}
+
+.right-section .module .subtitle .project {
+  font-size: 15px;
+  font-weight: 900; 
+  float: left;
+  padding-bottom: 5px; 
+}
+
+.right-section .module .subtitle .design {
+  font-size: 12px;
+  font-weight: 400; 
+  float: left;
+  margin-left: 2px; 
+}
+
+.right-section .module .subtitle .position {
+  font-size: 13px;
+  font-weight: 400; 
+  float: right;
+  margin-right: 10px;
 }
 
 .right-section .module .subtitle .time {
@@ -220,7 +242,7 @@ body {
 }
 
 .mt25 {
-  margin-top: 25px
+  margin-top: 10px
 }
 
 .lh200 {
