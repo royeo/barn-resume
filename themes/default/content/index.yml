@@ -49,7 +49,7 @@ project_exprience:
   点卡商城:
     position: 职能：后端开发
     design: .NET + SQLServer + Redis
-    content: 负责后端的日常维护以及兼顾一些前端工作，后面独立接手整个项目，包括商城与后台管理系统，后台管理系统使用 Vue + webpack + bootstrap 的架构。后期使用 Magento 开源电商系统对整个项目进行重构，基于 LNMP 构建，从零搭建到发布。
+    content: 参与后端的日常维护以及兼顾一些前端工作，后面独立接手整个项目，包括商城与后台管理系统，后台管理系统使用 Vue + webpack + bootstrap 的架构。后期使用 Magento 开源电商系统对整个项目进行重构，基于 LNMP 构建，从零搭建到发布。
 
 # `link` in each key is optional
 personal_work:
