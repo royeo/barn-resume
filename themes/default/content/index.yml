@@ -23,7 +23,8 @@ contact:
   手机: 13255268323
   邮箱: ljn6176@163.com
   微信: LOL-antijungle
-  居住地: 中国 广州
+  籍贯: 江苏 江阴
+  居住地: 广东 广州
 
 others:
   Github: github.com/royeo
@@ -43,9 +44,6 @@ project_exprience:
     position: 职能：项目主程
     design: Express + MySQL + Redis
     content: 负责论坛 RESTful API 服务和渲染层服务的日常开发与维护、性能优化、部署与发布等。工作内容包括：优化系统代码架构以及代码之间的解耦；优化 MySQL 的查询和索引设计，搭建主从配合读写分离来提升读性能，提高了系统40%的吞吐量；优化 Redis 缓存的设计与性能，减少了30%的内存占用；引入 AVA 测试框架，结合 Gitlab CI 进行自动化测试，代码覆盖率从0到当前的80%多。
-  # 357游戏网:
-  #   design: Express + MySQL + Redis
-  #   content: 项目前端主要采用 Vue + webpack + bootstrap 的架构。
   点卡商城:
     position: 职能：后端开发
     design: .NET + SQLServer + Redis
