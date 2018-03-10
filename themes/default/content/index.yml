@@ -6,6 +6,7 @@ pageTitle: 陆佳南的简历 | lujianan.com
 head_pic: image/head.jpg
 icon: image/favicon.ico
 name: 陆佳南
+bro: Get busy living or get busy dying  
 title: Web 后端开发工程师
 
 profile: 
@@ -34,7 +35,7 @@ work_exprience:
 - 
   company_name: 多益网络
   job_position: Web 后端工程师
-  from: 2016.4
+  from: 2016.7
   to: 至今
   content: 主要使用 Node.js 技术栈进行 Web 后端开发，涉及 Express 框架、MySQL 数据库、Redis 缓存、Nginx 代理等。使用过 Vue.js 构建后台用户界面，也负责过电商网站的一些前端开发工作，在部分项目中还使用过 .NET Core 与 PHP 进行项目的构建和日常维护工作。
 

@@ -80,6 +80,10 @@ body {
   font-weight: 800;
 }
 
+.main-title .bro {
+  margin: 15px 0 -15px 0;
+}
+
 .module {
   position: relative;
   margin-top: 30px;
