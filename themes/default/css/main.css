@@ -81,7 +81,8 @@ body {
 }
 
 .main-title .bro {
-  margin: 15px 0 -15px 0;
+  font-weight: 200;
+  margin: 10px 0 -15px 3px;
 }
 
 .module {
