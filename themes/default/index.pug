@@ -73,7 +73,7 @@ html(lang='zh')
               each val, index in project_exprience
                   div(class='subtitle')
                     span(class='project')= index
-                    span(class='design')= '（' + val.design + '）'
+                    span(class='design')= val.design ? '（' + val.design + '）' : ''
                     span(class="position")= val.position
                   div(class='content' style="line-height: 180%; margin-bottom:10px")= val.content
 
