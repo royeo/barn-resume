@@ -10,7 +10,7 @@ bro: Get busy living or get busy dying
 title: Web 后端开发工程师
 
 profile: 
-  - 我是一名热爱技术的 Web 后端开发者，对前端开发也比较熟悉，使用过 Node.js、C# 和 PHP，最近开始对 Golang 和区块链感兴趣。
+  - 我是一名热爱技术的 Web 后端开发者，使用过 Node.js 和 C#，最近开始对 Golang 和区块链感兴趣。
   - 平时我经常会看一些技术相关的书籍和博客，自己也有撰写技术博客的习惯，始终保持“求知若饥，虚心若愚”的状态。
   - 目前希望寻求一份满意的 Web 后端开发的工作。
 
@@ -37,7 +37,7 @@ work_exprience:
   job_position: Web 后端工程师
   from: 2016.7
   to: 至今
-  content: 主要使用 Node.js 技术栈进行 Web 后端开发，涉及 Express 框架、MySQL 数据库、Redis 缓存、Nginx 代理等。使用过 Vue.js 构建后台用户界面，也负责过电商网站的一些前端开发工作，在部分项目中还使用过 .NET Core 与 PHP 进行项目的构建和日常维护工作。
+  content: 主要使用 Node.js 技术栈进行 Web 后端开发，涉及 Express 框架、MySQL 数据库、Redis 缓存、Nginx 代理等。使用过 Vue.js 构建后台用户界面，也负责过电商网站的一些前端开发工作，在部分项目中还使用过 .NET Core 进行项目的构建和日常维护工作。
 
 project_exprience:
   游戏论坛: 
@@ -46,7 +46,7 @@ project_exprience:
     content: 负责论坛 RESTful API 服务和渲染层服务的日常开发与维护、性能优化、部署与发布等。工作内容包括：优化系统代码架构以及代码之间的解耦；优化 MySQL 的查询和索引设计，提高了系统40%的吞吐量，并且搭建了主从和主主复制；优化 Redis 缓存的设计与性能，通过合理的分片减少了30%的内存占用；引入 AVA 测试框架，结合 Gitlab CI 进行自动化测试，代码覆盖率从0到当前的80%多。
   点卡商城:
     position: 职能：后端开发
-    design: .NET + SQLServer + Redis
+    design: .NET Core + SQLServer + Redis
     content: 参与后端的日常维护并兼顾一些前端工作，后面独立接手整个项目，包括商城与后台管理系统，后台管理系统使用 Vue + webpack + bootstrap 的架构。后期使用 Magento 开源电商系统对整个项目进行重构，基于 LNMP 构建，从零搭建到发布。
 
 # `link` in each key is optional
