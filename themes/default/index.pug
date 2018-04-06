@@ -67,7 +67,7 @@ html(lang='zh')
             div(class='content' style="line-height: 180%")= item.content
 
 
-        div(class='module')
+        div(class='module' style='margin-top: -10px')
           h1(class='title') 项目经历
             div(class='content mt20' style="line-height: 180%")
               each val, index in project_exprience
@@ -81,11 +81,14 @@ html(lang='zh')
           h1(class='title') 个人作品
             div(class='content mt20' style="line-height: 180%")
                 each val, index in personal_work
-                  if val.link
-                    a(style='font-weight: 900' href= val.link target='_blank')= index
-                  else 
-                    span(style='font-weight: 900')= index
-                  span= ': ' + val.content
+                  if val.rank
+                    div(style='margin-top: 3px')
+                  div
+                    if val.link
+                      a(style='font-weight: 900' href= val.link target='_blank')= index
+                    else 
+                      span(style='font-weight: 900')= index
+                    span= ': ' + val.content
 
 
   footer

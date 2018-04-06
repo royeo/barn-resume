@@ -10,7 +10,7 @@ bro: Get busy living or get busy dying
 title: Web 后端开发工程师
 
 profile: 
-  - 我是一名热爱技术的 Web 后端开发者，熟练掌握 Node.js 和 C#，最近开始对 Golang 和区块链感兴趣。
+  - 我是一名热爱技术的 Web 后端开发者，目前专注于 Node.js 技术栈，也使用过 PHP 和 Python，最近开始对 Golang 感兴趣。
   - 平时我经常会看一些技术相关的书籍和博客，自己也有撰写技术博客的习惯，始终保持“求知若饥，虚心若愚”的状态。
   - 目前希望寻求一份满意的 Web 后端开发的工作。
 
@@ -44,19 +44,23 @@ project_exprience:
     position: 职能：项目主程
     design: Express + MySQL + Redis
     content: 负责论坛 RESTful API 服务和渲染层服务的日常开发与维护、性能优化、部署与发布等。工作内容包括：优化系统代码架构以及代码之间的解耦；优化 MySQL 的查询和索引设计，提高了系统40%的吞吐量，并且搭建了主从和主主复制；优化 Redis 缓存的设计与性能，通过合理的分片减少了30%的内存占用；引入 AVA 测试框架，结合 Gitlab CI 进行自动化测试，代码覆盖率从0到当前的80%多。
-  点卡商城:
+  ubuy商城:
     position: 职能：后端开发
-    design: .NET Core + SQLServer + Redis
-    content: 参与后端的日常维护并兼顾一些前端工作，后面独立接手整个项目，包括商城与后台管理系统，后台管理系统使用 Vue + webpack + bootstrap 的架构。后期使用 Magento 开源电商系统对整个项目进行重构，基于 LNMP 构建，从零搭建到发布。
+    design: Express + MySQL + Redis
+    content: 参与后端的日常维护并兼顾一些前端工作，包括商城系统与后台管理系统，后台管理系统使用 Vue + webpack + bootstrap 的架构。后期使用基于 LNMP 的 Magento 开源电商系统对整个项目进行重构。
 
 # `link` in each key is optional
 personal_work:
-  便利店在哪（微信小程序）: 
+  便利店在哪: 
     link: http://ovu6j7kst.bkt.clouddn.com/weapp-store-code.jpg
     content: 一个帮你快速找到附近便利店的小程序。基于小程序原生地图以及百度地图 POI 检索 API 实现。
+  express-last-middleware:
+    rank: 2
+    link: https://github.com/royeo/express-last-middleware
+    content: Express 的最后一个中间件，用于统一处理响应的 HTTP 状态码和响应主体。
 
 skill: 
   Node.js / JavaScript: 90%
-  C / C# / Golang: 60%
+  C / PHP  / Golang: 60%
   MySQL / Redis / Nginx: 70%
   Vue / HTML / CSS: 50%
