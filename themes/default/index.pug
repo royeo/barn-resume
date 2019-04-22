@@ -13,37 +13,38 @@ html(lang='zh')
         div(class='head-pic')
           img(src= head_pic)
         div(class='module')
-          h1(class='title') 联系方式
+          h1(class='title') 个人信息
           each val, index in contact 
             div(class="module-center mt5")
               span(class='subtitle ls2')= index + ':  '
               span(class='content')= val
               br 
+        //- div(class='module')
+        //-   h1(class='title') 教育背景
+        //-   each val, index in education 
+        //-     div(class="module-center mt5")
+        //-       span(class='subtitle ls2')= index + ':  '
+        //-       span(class='content')= val
+        //-       br 
         div(class='module')
-          h1(class='title') 教育背景
-          each val, index in education 
-            div(class="module-center mt5")
-              span(class='subtitle ls2')= index + ':  '
-              span(class='content')= val
-              br 
-        div(class='module')
-          h1(class='title') 个人简介
-          div(class='content mt5 lh200' style='padding-left: 10px;') 
-            each item in profile
-              p(style='padding-bottom: 5px; text-indent: 10%')= item
-        div(class='module')
-          h1(class='title') 其他说明
+          h1(class='title') 个人站点
           each val, index in others 
             div(class="mt5" style='text-align: left; padding-left: 30px;')
               span(class='subtitle ls1')= index + ':  '
               a(class='content' href= 'http://' + val target='_blank')= val
               br
+        div(class='module')
+          h1(class='title') 自我评价
+          div(class='content mt5 lh200' style='padding-left: 10px;') 
+            each item in profile
+              p(style='padding-bottom: 5px; text-indent: 10%')= item
 
-      div(class='right-section')
-        div(class='main-title')
-          h1(class='title') #{name}
-          //- div(class='bro') #{bro}
-          br
+
+      div(class='right-section' style="margin-top: -25px")
+        //- div(class='main-title')
+        //-   h1(class='title') #{name}
+        //-   //- div(class='bro') #{bro}
+        //-   br
         div(class='module')
           h1(class='title') 求职意向
           h3(class='content' style="margin-top: 6px") #{title}
@@ -59,12 +60,13 @@ html(lang='zh')
           
         div(class='module')
           h1(class='title') 工作经历
-          each item in work_exprience
+          each val, index in work_exprience
             div(class='subtitle' style="margin-top: 6px")
-              span(class='company')= item.company_name
-              span(class='job-position')= item.job_position
-              span(class='time')= item.from + ' - ' + item.to
-            div(class='content' style="line-height: 180%")= item.content
+              span(class='company-dot')= '•'
+              span(class='company')= index
+              span(class='job-position')= val.job_position
+              span(class='time')= val.from + ' - ' + val.to
+            div(class='content' style="line-height: 180%")= val.content
 
 
         div(class='module' style='margin-top: -10px')
@@ -75,17 +77,22 @@ html(lang='zh')
                     span(class='project')= index
                     span(class='design')= val.design ? '（' + val.design + '）' : ''
                     span(class="position")= val.position
-                  div(class='content' style="line-height: 180%; margin-bottom:10px")= val.content
+                    ul(class='content')
+                      each item in val.content
+                        li(style="font-size: 13px; margin-left: -20px")=item
+                    
+                  
+                  //- div(class='content' style="line-height: 180%; margin-bottom:10px")= val.content
 
-        div(class='module' style='margin-top: -10px')
+        div(class='module' style='margin-top: -20px; margin-bottom: -15px;')
           h1(class='title') 个人作品
-            div(class='content mt20' style="line-height: 180%")
+            div(class='content mt20 personal-works' style="line-height: 180%")
                 each val, index in personal_work
                   if val.rank
                     div(style='margin-top: 3px')
                   div
                     if val.link
-                      a(style='font-weight: 900' href= val.link target='_blank')= index
+                      a(style='font-weight: 900;' href= val.link target='_blank')= index
                     else 
                       span(style='font-weight: 900')= index
                     span= ': ' + val.content

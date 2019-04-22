@@ -7,12 +7,12 @@ head_pic: image/head.jpg
 icon: image/favicon.ico
 name: 陆佳南
 bro: Get busy living or get busy dying  
-title: Web 后端开发工程师
+title: 后端开发工程师
 
 profile: 
-  - 我是一名热爱技术的 Web 后端开发者，目前专注于 Node.js 技术栈，也使用过 PHP 和 Python，最近开始对 Golang 感兴趣。
-  - 平时我经常会看一些技术相关的书籍和博客，自己也有撰写技术博客的习惯，始终保持“求知若饥，虚心若愚”的状态。
-  - 目前希望寻求一份满意的 Web 后端开发的工作。
+  - 我是一名热爱技术、热爱开源的后端开发者，目前专注于 Golang 技术栈，也使用过 Node.js 和 Python 等。
+  - 对于技术我始终保持“求知若饥，虚心若愚”的状态，有空就会看一些技术书籍和博客，完善自己的知识体系，另外自己也有撰写技术博客的习惯。
+  - 对于开源社区我比较热衷，会经常留意好的开源项目，也会给开源项目提交 PR 添加 Feature，另外自己有想法也会写一些项目开源出去。
 
 education:
   学历: 本科
@@ -21,10 +21,13 @@ education:
   专业: 电子信息科学与技术
 
 contact:
+  姓名: 陆佳南
+  年龄: 25岁
+  工作年限: 3年
+  籍贯: 江苏 江阴
   手机: 13255268323
   邮箱: ljn6176@163.com
-  籍贯: 江苏 江阴
-  居住地: 广东 广州
+  学历: 本科/南京工程学院/12届
 
 others:
   Github: github.com/royeo
@@ -32,35 +35,47 @@ others:
   在线简历: cv.lujianan.com
 
 work_exprience: 
-- 
-  company_name: 多益网络
-  job_position: Web 后端工程师
-  from: 2016.7
-  to: 至今
-  # content: 主要使用 Node.js 技术栈进行 Web 后端开发，涉及 Express 框架、MySQL 数据库、Redis 缓存、Nginx 代理等。使用过 Vue.js 构建后台用户界面，也负责过电商网站的一些前端开发工作，在部分项目中还使用过 .NET Core 进行项目的构建和日常维护工作。
+  多益网络:
+    job_position: 后端开发
+    from: 2016.3
+    to: 2018.4
+    content: ""
+  元聚网络:
+    job_position: 后端开发
+    from: 2018.5
+    to: 至今
+    content: ""
 
 project_exprience:
+  追书神器: 
+    position: 职能：后端开发
+    design: 日活 500w 的小说阅读类 APP
+    content: 
+      - 负责追书神器 APP 服务端的日常开发与维护，独立开发设计了充值卡商品模块以及多个活动模块。
+      - 参与了微服务的架构演化，开发和维护了书籍服务、用户统计服务等基础服务。用户统计服务异步消费主服务发到 MQ 的用户消费/充值等记录，累计写到 Redis，给活动模块提供查询，避免了对数据库做频繁的聚合操作。
+      - 开发了团队内部的脚手架工具，制定服务模板，提高了团队的开发效率。在团队内部推行 Monorepo 并初步实施。
   游戏论坛: 
     position: 职能：项目主程
-    design: Express + MySQL + Redis
-    content: 负责论坛 RESTful API 服务和渲染层服务的日常开发与维护、性能优化、部署与发布等。工作内容包括：优化系统代码架构以及代码之间的解耦；优化 MySQL 的查询和索引设计，提高了系统40%的吞吐量，并且搭建了主从和主主复制；优化 Redis 缓存的设计与性能，通过合理的分片减少了30%的内存占用；引入 AVA 测试框架，结合 Gitlab CI 进行自动化测试，代码覆盖率从0到当前的80%多。
-  ubuy商城:
-    position: 职能：后端开发
-    design: Express + MySQL + Redis
-    content: 参与后端的日常维护并兼顾一些前端工作，包括商城系统与后台管理系统，后台管理系统使用 Vue + webpack + bootstrap 的架构。后期使用基于 LNMP 的 Magento 开源电商系统对整个项目进行重构。
+    design: 神武、梦想世界等游戏的官方论坛
+    content: 
+      - 负责游戏论坛后端 API 服务和渲染层服务的日常开发与维护、性能优化、部署与发布等。
+      - 优化系统代码架构以及代码之间的解耦；优化 MySQL 的查询和索引设计，提高了系统40%的吞吐量；优化 Redis 缓存的设计与性能，通过合理的分片减少了30%的内存占用。
+      - 引入 AVA 测试框架，结合 GitLab CI 进行自动化测试，代码覆盖率从0到80%多。
 
 # `link` in each key is optional
 personal_work:
   便利店在哪: 
-    link: http://ovu6j7kst.bkt.clouddn.com/weapp-store-code.jpg
+    link: https://github.com/royeo/weapp-store
     content: 一个帮你快速找到附近便利店的小程序。基于小程序原生地图以及百度地图 POI 检索 API 实现。
-  express-last-middleware:
+  git-checkout-branch:
     rank: 2
+    link: https://github.com/royeo/git-checkout-branch
+    content: Git 自定义命令，支持交互式切换 Git 分支和搜索分支，让你更优雅的切换分支。
+  express-last-middleware:
+    rank: 3
     link: https://github.com/royeo/express-last-middleware
     content: Express 的最后一个中间件，用于统一处理响应的 HTTP 状态码和响应主体。
 
 skill: 
-  Node.js / JavaScript: 90%
-  C / PHP  / Golang: 60%
-  MySQL / Redis / Nginx: 70%
-  Vue / HTML / CSS: 50%
+  Golang / Node.js : 80%
+  MySQL / Redis / Rabbitmq: 80%
