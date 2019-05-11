@@ -88,8 +88,8 @@ body {
 
 .module {
   position: relative;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   overflow: hidden;
   zoom: 1;
 }
@@ -97,7 +97,7 @@ body {
 .module .title {
   font-size: 18px;
   font-weight: 800;
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
 }
 
 .left-section .module {
@@ -131,7 +131,6 @@ body {
 
 .right-section .module {
   text-align: left;
-  margin-top: 30px;
 }
 
 .right-section .module .title::after{
@@ -180,19 +179,32 @@ body {
   padding-bottom: 5px; 
 }
 
-.right-section .module .subtitle .design {
-  font-size: 12px;
-  font-weight: 300; 
-  float: left;
-  margin-left: 2px; 
-  margin-top: 2px; 
-}
-
 .right-section .module .subtitle .position {
   font-size: 13px;
   /*font-weight: 400; */
   float: right;
   margin-right: 10px;
+}
+
+.right-section .module .subtitle .intro {
+  font-size: 12px;
+  font-weight: 400; 
+  margin-left: 10px; 
+  margin-top: 2px; 
+}
+
+.right-section .module .subtitle .techstack {
+  font-size: 13px;
+  font-weight: 350; 
+  /* float: left; */
+  margin-left: -58px; 
+}
+
+.right-section .module .subtitle .content {
+  font-size: 14px;
+  font-weight: 200; 
+  /* float: left; */
+  /* margin-left: 10px;  */
 }
 
 .right-section .module .content {
@@ -219,7 +231,8 @@ body {
   width: 430px;
   margin-left: auto;
   margin-right: auto; 
-  margin-bottom: 35px;
+  margin-top: -10px;
+  margin-bottom: 10px;
 }
 
 .skill-list .skill {

@@ -51,12 +51,12 @@ html(lang='zh')
 
         div(class='module')
           h1(class='title') 技能评估
-        div(class='skill-list')
-          each val, index in skill
-            div(class='skill')
-              div(class='skill-name')= index
-              div(class='skill-bar') 
-                span(class='value' style= 'width: ' + val)
+          div(class='skill-list')
+            each val, index in skill
+              div(class='skill')
+                div(class='skill-name')= index
+                div(class='skill-bar') 
+                  span(class='value' style= 'width: ' + val)
           
         div(class='module')
           h1(class='title') 工作经历
@@ -69,14 +69,17 @@ html(lang='zh')
             div(class='content' style="line-height: 180%")= val.content
 
 
-        div(class='module' style='margin-top: -10px')
+        div(class='module')
           h1(class='title') 项目经历
             div(class='content mt20' style="line-height: 180%")
               each val, index in project_exprience
                   div(class='subtitle')
                     span(class='project')= index
-                    span(class='design')= val.design ? '（' + val.design + '）' : ''
                     span(class="position")= val.position
+                    span(class='intro')= val.intro 
+                    br
+                    span(class='techstack')= '技术栈: ' + val.techstack   
+    
                     ul(class='content')
                       each item in val.content
                         li(style="font-size: 13px; margin-left: -20px")=item
@@ -99,4 +102,4 @@ html(lang='zh')
 
 
   footer
-    div(style="font-size: 12px; text-align: center") Hosted by <a target="_blank" href="https://coding.net/pages/">Coding Pages</a>
+    //- div(style="font-size: 12px; text-align: center") Hosted by <a target="_blank" href="https://coding.net/pages/">Coding Pages</a>

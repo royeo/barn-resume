@@ -35,32 +35,35 @@ others:
   在线简历: cv.lujianan.com
 
 work_exprience: 
-  多益网络:
-    job_position: 后端开发
-    from: 2016.3
-    to: 2018.4
-    content: ""
   元聚网络:
     job_position: 后端开发
     from: 2018.5
     to: 至今
     content: ""
+  多益网络:
+    job_position: 后端开发
+    from: 2016.3
+    to: 2018.4
+    content: ""
 
 project_exprience:
   追书神器: 
     position: 职能：后端开发
-    design: 拥有上亿用户的小说阅读类 APP
+    intro: 拥有上亿用户的小说阅读类 APP
+    techstack: 微服务、Go、Gokit、GRPC、MySQL、Mongo、Redis、MQ
     content: 
-      - 负责追书神器 APP 服务端的日常开发与维护，独立开发设计了充值卡商品模块以及多个活动模块。
-      - 参与了微服务的架构演化，开发和维护了书籍服务、用户统计服务等基础服务。用户统计服务异步消费主服务发到 MQ 的用户消费/充值等记录，累计写到 Redis，给活动模块提供查询，避免了对数据库做频繁的聚合操作。
-      - 开发了团队内部的脚手架工具，制定服务模板，提高了团队的开发效率。在团队内部推行 Monorepo 并初步实施。
+      - 负责追书神器 APP 服务端的日常开发与维护，期间独立开发设计了充值卡商品模块，完成了数据库的整体设计，以及上架商品/下单/支付/发货的整个业务流程。
+      - 参与了微服务的架构演化，使用 Go 重构原先的 Node.js 单体应用，使用 GRPC 进行服务间通信。期间开发和维护了书籍服务、用户服务、用户统计服务等基础服务。
+      - 独立开发了用户统计服务，异步消费主服务发到 MQ 的用户消费/充值等记录，累计写到 Redis，给活动模块提供查询，避免了对数据库做频繁的聚合操作。
+      - 自行开发了团队内部的脚手架工具，制定微服务模板，提高了团队的开发效率。在团队内部推行 Monorepo 并初步实施。
   游戏论坛: 
     position: 职能：项目主程
-    design: 神武、梦想世界等游戏的官方论坛
+    intro: 神武、梦想世界等游戏的官方论坛
+    techstack: Node.js、Vue.js、Express、MySQL、Redis、MQ
     content: 
-      - 负责游戏论坛后端 API 服务和渲染层服务的日常开发与维护、性能优化、部署与发布等。
-      - 优化系统代码架构以及代码之间的解耦；优化 MySQL 的查询和索引设计，提高了系统40%的吞吐量；优化 Redis 缓存的设计与性能，通过合理的分片减少了30%的内存占用。
-      - 引入 AVA 测试框架，结合 GitLab CI 进行自动化测试，代码覆盖率从0到80%多。
+      - 负责游戏论坛后端的日常开发与维护、性能优化、部署与发布等工作；并作为项目主程对接产品的需求，安排和协调其他开发的工作。
+      - 优化系统架构，对服务进行拆分和解耦；优化 MySQL 的查询和索引设计，提高了系统 40% 的吞吐量；优化 Redis 缓存的设计与性能，通过合理的分片减少了 30% 的内存占用。
+      - 基于 GitLab 搭建了 CI/CD，规范开发流程，引入了 AVA 测试框架，测试覆盖率从 0 到 80% 多。
 
 # `link` in each key is optional
 personal_work:
@@ -78,4 +81,4 @@ personal_work:
 
 skill: 
   Golang / Node.js : 80%
-  MySQL / Redis / Rabbitmq: 80%
+  MySQL / Redis / MQ / Nginx: 80%
